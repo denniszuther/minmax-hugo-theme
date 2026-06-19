@@ -1,0 +1,15 @@
+v0.1.0
+
+2026-06-18
+
+## Initial release
+
+- Forked from `accessible-minimalism` Hugo theme by Leon Stafford (https://github.com/leonstafford/accessible-minimalism-hugo-theme).
+- Maintained as an independent theme with additional Hugo compatibility and accessibility improvements.
+- Improved Hugo 0.163+ compatibility.
+- Migrated language metadata from deprecated `LanguageCode` to `Language.Locale`.
+- Enabled support for raw HTML blocks in Markdown files via Goldmark renderer configuration.
+- XHTML 1.0 Strict compliant markup.
+- Improved accessibility with enlarged default typography (150% base font size, 500% h1 heading size).
+
+

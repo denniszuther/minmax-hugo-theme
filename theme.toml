@@ -1,0 +1,13 @@
+name = "MinMax Hugo Theme"
+license = "Unlicense"
+licenselink = "https://unlicense.org"
+description = "A minimalist Hugo theme that prioritizes clear reading."
+homepage = "https://github.com/denniszuther/minmax-hugo-theme/"
+tags = ["minimalist", "clean", "no-frills", "simple"]
+features = ["For visually impaired readers and developers"]
+min_version = "0.68.0"
+
+[author]
+  name = "Dennis Zuther"
+  homepage = "https://www.denniszuther.org"
+

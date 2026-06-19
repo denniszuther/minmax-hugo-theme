@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ range .Pages.ByPublishDate.Reverse }}
+  {{ $post := . }}
+  <p>
+    {{ if not .Date.IsZero }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      &mdash;
+    {{ end }}
+    <strong>{{ .Title }}</strong>{{ with .Summary }}:
+      {{ . | plainify | truncate 120 }}
+      <a href="{{ $post.RelPermalink }}">[README]</a>
+    {{ end }}
+  </p>
+{{ end }}
+{{ end }}

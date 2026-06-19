@@ -1,0 +1,28 @@
+baseURL = "http://example.org/"
+locale = "en-us"
+title = "MinMax Hugo Theme"
+theme = "minmax-hugo-theme"
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+
+[params]
+  description = "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
