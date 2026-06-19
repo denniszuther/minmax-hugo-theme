@@ -115,7 +115,7 @@ Recommended validation methods:
 
 ## Screenshot
 
-[![Screenshot](https://github.com/denniszuther/minmax-hugo-theme/images/screenshot.png)](https://github.com/denniszuther/minmax-hugo-theme/images/screenshot.png)
+[![Screenshot](https://github.com/denniszuther/minmax-hugo-theme/blob/main/images/screenshot.png)](https://github.com/denniszuther/minmax-hugo-theme/blob/main/images/screenshot.png)
 
 ## Roadmap
 
