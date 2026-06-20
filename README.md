@@ -13,32 +13,36 @@ MinMax is an independent Hugo theme designed for users who value content, open s
 * Raw HTML support in Markdown content
 * Semantic markup
 * Accessibility-first design
-* Large default typography
+* Oversized responsive headings
+* Large responsive typography
+* Fluid typography scaling with CSS `clamp()`
+* Centered content layout with responsive margins
 * Minimal CSS
 * No JavaScript dependencies
+* Source Sans 3 web font integration
 
 ## Project Goals
 
 * Prioritize content over presentation
 * Produce clean and standards-compliant markup
 * Support screen readers and assistive technologies
-* Improve readability for visually impaired users
+* Improve readability through typography and spacing
 * Minimize configuration and maintenance effort
 * Remain compatible with modern Hugo releases
+* Provide a distraction-free reading experience
+* Maintain a lightweight and dependency-free frontend
 
 ## Accessibility
 
-Accessibility is a primary design goal.
-
-Current accessibility features include:
-
 * Semantic HTML structure
-* 150% default font size
-* 500% h1 heading size
+* Responsive font sizing for different screen sizes
+* Large readable default typography
+* Fluid heading scaling
 * Minimal visual clutter
 * Keyboard-friendly navigation
 * Screen reader friendly markup
-* High reliance on browser defaults
+* High reliance on browser standards and defaults
+* Responsive layout for desktop, tablet, and mobile devices
 
 ## Getting Started
 
@@ -85,6 +89,7 @@ MinMax is tested with:
 * Hugo 0.163+
 * Goldmark Markdown renderer
 * XHTML 1.0 Strict validation
+* Modern desktop and mobile browsers
 
 ## Development Principles
 
@@ -92,7 +97,9 @@ MinMax is tested with:
 * Accessibility before aesthetics
 * Minimal generated markup
 * Minimal CSS
-* No unnecessary JavaScript
+* Responsive design without JavaScript
+* Progressive enhancement
+* Browser-native functionality wherever possible
 * Readable source code
 
 ## Testing
@@ -104,6 +111,7 @@ Recommended validation methods:
 * Keyboard-only navigation
 * Text browsers such as `lynx`
 * Hugo build verification
+* Responsive layout testing on desktop and mobile devices
 
 ## Screenshot
 
