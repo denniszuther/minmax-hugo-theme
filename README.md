@@ -1,6 +1,6 @@
 # MinMax Hugo Theme
 
-A minimalist Hugo theme focused on accessibility, readability, and long-term maintainability.
+A minimalist Hugo theme focused on accessibility and readability.
 
 MinMax is an independent Hugo theme designed for users who value content, open standards, and accessibility over visual complexity and unnecessary dependencies.
 
@@ -40,28 +40,20 @@ Current accessibility features include:
 * Screen reader friendly markup
 * High reliance on browser defaults
 
-## Philosophy
-
-MinMax follows a simple principle:
-
-Content should remain accessible, readable, and durable regardless of changing web design trends.
-
-The theme favors simplicity, open standards, and maintainability over visual effects, large frameworks, and excessive styling.
-
 ## Getting Started
 
 ### Install the theme
 
-Clone the repository into your Hugo site's `themes` directory:
+Change the current working directory to the location where you want the cloned directory. Clone the repository into your Hugo site's `themes` directory:
 
 ```bash
-git clone https://github.com/denniszuther/minmax-hugo-theme themes/minmax
+git clone https://github.com/denniszuther/minmax-hugo-theme
 ```
 
 Alternatively, download the latest release and extract it to:
 
 ```text
-themes/minmax
+themes/minmax-hugo-theme
 ```
 
 ### Configure Hugo
@@ -69,7 +61,7 @@ themes/minmax
 Copy the example configuration:
 
 ```bash
-cp themes/minmax/exampleSite/hugo.toml .
+cp themes/minmax-hugo-theme/exampleSite/hugo.toml .
 ```
 
 Adjust the configuration as needed.
@@ -119,7 +111,7 @@ Recommended validation methods:
 
 ## Roadmap
 
-Future development will continue to focus on accessibility, standards compliance, and long-term maintainability.
+Future development will continue to focus on accessibility and standards compliance.
 
 ## Acknowledgements
 
